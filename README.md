@@ -62,8 +62,11 @@ Insurance_Charges_Prediction/
 Install locally with Python
 
 git clone https://github.com/venky23/Insurance_Charges_Prediction.git
+
 cd Insurance_Charges_Prediction
+
 pip install -r requirements.txt
+
 streamlit run app.py
 
 7 Usage
