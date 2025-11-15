@@ -57,7 +57,7 @@ Insurance_Charges_Prediction/
 │── requirements.txt
 │── README.md
 
-6 Installation
+<h2>  6 Installation </h2>
 
 Install locally with Python
 
