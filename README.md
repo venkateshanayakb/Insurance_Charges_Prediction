@@ -1,76 +1,55 @@
-🏥 Insurance Charges Prediction
-
-Predict medical insurance charges using an elegantly designed ML + Streamlit application.
-
-<div align="center"> <img src="https://img.freepik.com/free-vector/medical-insurance-concept-illustration_114360-2344.jpg" width="650"> </div>
 <div align="center">
+<strong>🏥 INSURANCE CHARGES PREDICTION</strong>
 
+An elegant Machine Learning application that predicts medical insurance charges using a Linear Regression model wrapped in a clean Streamlit interface.
 
+<br> <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"> <img src="https://img.shields.io/badge/Python-3.10+-blue?style=flat-square"> <img src="https://img.shields.io/badge/Framework-Streamlit-red?style=flat-square"> <img src="https://img.shields.io/badge/Model-Linear%20Regression-orange?style=flat-square"> <img src="https://img.shields.io/badge/Status-Live-brightgreen?style=flat-square"> <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square">
 
+<br><br>
 
+🔗 Live App:
 
-
-
-
-
-
-</div>
-🔗 Live Demo
-
-👉 Open App:
 https://insurancechargesprediction-wmhqgjcwk6mzpwpj7hltnx.streamlit.app/
 
-📘 Overview
+</div>
+1 Overview
 
-This project predicts health insurance charges using demographic and lifestyle parameters.
-It demonstrates a complete ML pipeline wrapped in a clean Streamlit UI:
-data preprocessing
-min-max scaling
-linear regression model
-interactive deployment.
+This project estimates individual health insurance charges using demographic and lifestyle attributes.
+It showcases a complete ML workflow including preprocessing, scaling and deployment in a user friendly Streamlit application.
 
-This project is ideal for healthcare analytics learners, ML beginners, and portfolio building.
+This project suits healthcare analytics learners and beginners exploring ML deployment.
 
-✨ Features
+2 Features
 
-🟦 Intuitive Streamlit interface
-🟩 Real-time ML-based prediction
-🟨 Min-max feature scaling
-🟧 Lightweight, fast linear regression model
-🟪 Easy to deploy and extend
-🟫 Full reproducibility with included files
+• Interactive modern UI
+• Real time predictions
+• Built in min max scaling
+• Lightweight linear regression model
+• One click Streamlit Cloud deployment
+• Easy to extend and modify
 
-🧠 How It Works
-🔄 Workflow Diagram
-        ┌────────────┐
-        │   Dataset   │
-        └──────┬──────┘
-               │
-               ▼
-      ┌──────────────────┐
-      │  Preprocessing    │
-      │ Min-Max Scaling   │
-      └────────┬─────────┘
-               │
-               ▼
-     ┌──────────────────┐
-     │ Linear Regression │
-     └────────┬─────────┘
-               │
-               ▼
-     ┌──────────────────┐
-     │ Streamlit UI     │
-     └──────────────────┘
+3 Workflow Diagram
 
-📊 Model Inputs
-Feature	Type	Description
-Age	Numeric	Person’s age in years
-BMI	Numeric	Body Mass Index
-Gender	Category	Male, Female
-Smoker	Category	Yes or No
-Region	Category	NE, NW, SE, SW
-Children	Numeric	Number of dependents
-📁 Project Structure
+Github renders this diagram cleanly.
+
+flowchart TD
+    A[User Inputs<br>Age, BMI, Gender, Smoker, Region] --> B[Preprocessing<br>Min Max Scaling]
+    B --> C[Model<br>Linear Regression .pkl]
+    C --> D[Prediction<br>Estimated Charges]
+    D --> E[Streamlit UI<br>Result Display]
+
+4 Input Features
+
+| Feature  | Type     | Details               |
+| -------- | -------- | --------------------- |
+| Age      | Numeric  | Person’s age in years |
+| BMI      | Numeric  | Body Mass Index       |
+| Gender   | Category | Male or Female        |
+| Smoker   | Category | Yes or No             |
+| Region   | Category | NE, NW, SE, SW        |
+| Children | Numeric  | Number of dependents  |
+
+5 Project Structure
 Insurance_Charges_Prediction/
 │── app.py
 │── linear_regression_model.pkl
@@ -78,43 +57,38 @@ Insurance_Charges_Prediction/
 │── requirements.txt
 │── README.md
 
-⚙️ Installation
+6 Installation
+
+Install locally with Python
+
 git clone https://github.com/venky23/Insurance_Charges_Prediction.git
 cd Insurance_Charges_Prediction
 pip install -r requirements.txt
 streamlit run app.py
 
+7 Usage
 
-▶ Usage
+Enter user details in the interface
+Tap “Predict”
+View predicted insurance charges instantly.
 
-Open the web app
+8 Example Predictions
 
-Enter age, BMI, children
+| Age | BMI  | Smoker | Predicted Charges |
+| --- | ---- | ------ | ----------------- |
+| 30  | 24.3 | No     | ₹8400             |
+| 45  | 29.7 | Yes    | ₹23700            |
+| 52  | 31.1 | No     | ₹16400            |
 
-Select region, gender, smoker status
+9 Deployment
 
-Click Predict Charges
+Deployed on Streamlit Cloud.
+Any push to the main branch automatically updates the live application.
 
-View instant estimated charges
+10 Contributing
 
-🌈 Sample Predictions
-| Age | BMI  | Smoker | **Predicted Charges** |
-| --- | ---- | ------ | --------------------- |
-| 28  | 23.4 | ❌ No   | 🟩 **₹8 100**         |
-| 42  | 29.8 | ✔ Yes  | 🟥 **₹22 400**        |
-| 55  | 31.2 | ❌ No   | 🟨 **₹16 300**        |
+Fork the repository, create a new branch and submit a pull request for improvements or new features.
 
+11 License
 
-☁ Deployment
-
-The app is deployed on Streamlit Cloud.
-Updating your GitHub repository automatically updates the live app.
-
-🤝 Contributing
-
-Pull requests and new ideas are welcome.
-Raise an issue if you want a new feature or improvement.
-
-📜 License
-
-MIT License. Free to use, modify, and distribute.
+This project is released under the MIT License.
