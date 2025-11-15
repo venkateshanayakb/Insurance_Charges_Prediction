@@ -93,4 +93,4 @@ Fork the repository, create a new branch and submit a pull request for improveme
 <br>
 <h2>11. License</h2>
 
-This project is released under the MIT License.
+This project is released under the MIT License. The license file is attached in repo. 
