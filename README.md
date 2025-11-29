@@ -51,12 +51,14 @@ flowchart TD
 <br>
 <h2>5. Project Structure</h2>
 
+```
 Insurance_Charges_Prediction/
 │── app.py
 │── linear_regression_model.pkl
 │── min_max_values.json
 │── requirements.txt
 │── README.md
+```
 <br>
 <h2>  6 Installation </h2>
 
