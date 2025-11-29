@@ -40,6 +40,8 @@ flowchart TD
     D --> E[Streamlit UI<br>Result Display]
 <br>
 <h2>4. Input Features </h2>
+
+```
 | Feature  | Type     | Details               |
 | -------- | -------- | --------------------- |
 | Age      | Numeric  | Person’s age in years |
@@ -48,6 +50,8 @@ flowchart TD
 | Smoker   | Category | Yes or No             |
 | Region   | Category | NE, NW, SE, SW        |
 | Children | Numeric  | Number of dependents  |
+```
+
 <br>
 <h2>5. Project Structure</h2>
 
