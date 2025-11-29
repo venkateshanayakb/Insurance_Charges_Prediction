@@ -44,8 +44,6 @@ This project suits healthcare analytics learners and beginners exploring ML depl
 
 <h2 style="font-size:30px">3. Workflow Diagram</h2>
 
-Github renders this diagram cleanly.
-
 ```mermaid
 flowchart TD
     A[User Inputs<br>Age BMI Gender Smoker Region] --> B[Preprocessing<br>Min Max Scaling]
@@ -90,10 +88,12 @@ Tap “Predict”
 View predicted insurance charges instantly
 
 <br> <h2 style="font-size:30px">8. Example Predictions</h2>
-Age	BMI	Smoker	Predicted Charges
-30	24.3	No	₹8400
-45	29.7	Yes	₹23700
-52	31.1	No	₹16400
+| Age | BMI  | Smoker | Predicted Charges |
+| --- | ---- | ------ | ----------------- |
+| 30  | 24.3 | No     | ₹8400             |
+| 45  | 29.7 | Yes    | ₹23700            |
+| 52  | 31.1 | No     | ₹16400            |
+
 <br> <h2 style="font-size:30px">9. Deployment</h2>
 
 Deployed on Streamlit Cloud.
