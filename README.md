@@ -76,10 +76,17 @@ Insurance_Charges_Prediction/
 
 Install locally with Python
 
-git clone https://github.com/venky23/Insurance_Charges_Prediction.git
-cd Insurance_Charges_Prediction
-pip install -r requirements.txt
-streamlit run app.py
+- Step 1: Clone the repository  
+  git clone https://github.com/venky23/Insurance_Charges_Prediction.git
+
+- Step 2: Navigate into the project folder  
+  cd Insurance_Charges_Prediction
+
+- Step 3: Install all required dependencies  
+  pip install -r requirements.txt
+
+- Step 4: Launch the Streamlit application  
+  streamlit run app.py
 
 <br> <h2 style="font-size:30px">7. Usage</h2>
 
